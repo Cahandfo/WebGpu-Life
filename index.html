@@ -28,24 +28,15 @@
         format: canvasFormat,
     });
 
-    // Square we want but need in terms of triangles
-    // const verticies = new Float32Array([
-    // //  X,    Y,
-    //  -0,8, -0,8,
-    //   0.8, -0.8,
-    //   0.8,  0.8,
-    //  -0.8,  0.8,
-    // ]); 
-
     const GRID_SIZE = 4;
 
     const vertices = new Float32Array([
-    //     X,    Y, // Triangle 1 (grey)
+    //     X,    Y, // Triangle 1 
         -0.8, -0.8,
          0.8, -0.8,
          0.8,  0.8,
 
-        -0.8, -0.8, // Triangle 2 (Red)
+        -0.8, -0.8, // Triangle 2
          0.8,  0.8,
         -0.8,  0.8,
     ]);
